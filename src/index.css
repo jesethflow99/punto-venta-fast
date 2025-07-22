@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App{
+    display: grid;
+    grid-template-areas: 
+        "Aside Header Header"
+        "Aside Section Section";
+    grid-template-columns: 300px 3fr;
+    grid-template-rows: 100px 1fr;
+    height: 100vh;
+    
+    gap: 10px;
+    padding: 10px;
+}
+.App > * {
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.479);
+    border-radius: 20px;
+}
+.Header{
+    grid-area: Header;
+
+}
+.Aside{
+    grid-area: Aside;
+}
+
+
+.iconu {
+    border-radius:100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+
+
+}
+

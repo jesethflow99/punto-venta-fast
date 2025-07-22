@@ -1,0 +1,10 @@
+[
+    {"configuracion":{
+        "Titulo":"Cuve Digital",
+        "Telefono":"123456789",
+        "RUC":"1234567890",
+        "Direccion":"Av. Siempre Viva 123",
+        "Correo":"info@imprentadigital.com",
+        "Logo":"https://example.com/logo.png"
+    }}
+]
